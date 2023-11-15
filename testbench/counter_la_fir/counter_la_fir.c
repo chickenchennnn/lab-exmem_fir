@@ -140,19 +140,19 @@ void main()
 	reg_mprj_datal = *(tmp+9) << 16;
 
 	reg_mprj_datal = *(tmp+10) << 16;	
-	reg_mprj_datal = *(tmp+11) << 16;
-	reg_mprj_datal = *(tmp+12) << 16;
-	reg_mprj_datal = *(tmp+13) << 16;
-	reg_mprj_datal = *(tmp+14) << 16;
-	reg_mprj_datal = *(tmp+15) << 16;
-	reg_mprj_datal = *(tmp+16) << 16;
-	reg_mprj_datal = *(tmp+17) << 16;
-	reg_mprj_datal = *(tmp+18) << 16;
-	reg_mprj_datal = *(tmp+19) << 16;
+	// reg_mprj_datal = *(tmp+11) << 16;
+	// reg_mprj_datal = *(tmp+12) << 16;
+	// reg_mprj_datal = *(tmp+13) << 16;
+	// reg_mprj_datal = *(tmp+14) << 16;
+	// reg_mprj_datal = *(tmp+15) << 16;
+	// reg_mprj_datal = *(tmp+16) << 16;
+	// reg_mprj_datal = *(tmp+17) << 16;
+	// reg_mprj_datal = *(tmp+18) << 16;
+	// reg_mprj_datal = *(tmp+19) << 16;
 
 	// print("\n");
 	// print("Monitor: Test 1 Passed\n\n");	// Makes simulation very long!
 	// reg_user_fir = 0x45454545;
-	// reg_mprj_datal = 0xAB510000;
+	reg_mprj_datal = 0xAB510000;
 }
 
